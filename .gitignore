@@ -1,0 +1,32 @@
+# Emacs backup files
+*~
+
+# Any hidden file or folder
+.*
+.*/
+!.gitignore
+!.dockerignore
+!.scalafmt.conf
+
+# metals
+project/metals.sbt
+project/project/
+project/target/
+target/
+
+# eclipse
+build/
+bin/
+
+# intellij idea
+*.log
+*.iml
+*.ipr
+*.iws
+
+#general
+*.class
+
+.bloop/
+.metals/
+.vscode/
