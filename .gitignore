@@ -1,6 +1,9 @@
 # Emacs backup files
 *~
 
+# Scala worksheets
+*.worksheet.sc
+
 # Any hidden file or folder
 .*
 .*/
