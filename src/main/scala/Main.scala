@@ -1,1 +1,0 @@
-@main def hallo = println("Hallo, Leute!")
