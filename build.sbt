@@ -9,4 +9,6 @@ lazy val `algo-study` =
       name := "Algorithms & Data Structures"
     )
 
-libraryDependencies += "org.scalameta" %% "munit" % "0.7.29" % Test
+libraryDependencies ++= Seq(
+  "org.scalameta" %% "munit" % "1.0.0-M3" % Test
+)
