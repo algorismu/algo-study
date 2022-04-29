@@ -4,6 +4,9 @@
 # Scala worksheets
 *.worksheet.sc
 
+# Allow worksheets in problems directory
+!src/main/scala/problems/**/*.worksheet.sc
+
 # Any hidden file or folder
 .*
 .*/
