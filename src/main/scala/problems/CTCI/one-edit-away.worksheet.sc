@@ -17,7 +17,7 @@ def oneEditAway(a: String, b: String): Boolean =
     val charPairs = a zip b
     val commonChars = charPairs.count((x, y) => x == y)
     commonChars == a.length - 1
-  // one string is longer that the other by obly one character
+  // Difference in length is 1 char, then it is a possible Insert or Remove
   else if Math.abs(a.length - b.length) == 1 && a.length < b.length
   then a.forall(c => b contains c)
   else b.forall(c => a contains c)
